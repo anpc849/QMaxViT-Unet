@@ -1,5 +1,5 @@
-# QEMaxViT-Unet
-This repository is the official implementation of the paper QEMaxViT-Unet: A Query-Based MaxViT-Unet with Edge Enhancement for Scribble-Supervised Segmentation of Medical Images.
+# QMaxViT-Unet+
+This repository is the official implementation of the paper QMaxViT-Unet+: A Query-Based MaxViT-Unet with Edge Enhancement for Scribble-Supervised Segmentation of Medical Images
 
 ## Datasets
 
