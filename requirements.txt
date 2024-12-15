@@ -1,0 +1,6 @@
+SimpleITK
+MedPy
+timm
+progress-table
+git+https://github.com/facebookresearch/detectron2.git
+h5py
