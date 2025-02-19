@@ -60,6 +60,19 @@ We provide several Jupyter notebooks to make it easy to explore our method. Thes
 
 These notebooks provide a modular framework, making it easier to adapt and experiment with different components of our method.
 
+## Citation
+```bibtex
+@article{nguyen2025qmaxvit,
+  title={QMaxViT-Unet+: A query-based MaxViT-Unet with edge enhancement for scribble-supervised segmentation of medical images},
+  author={Nguyen-Tat, Thien B and Vo, Hoang-An and Dang, Phuoc-Sang},
+  journal={Computers in Biology and Medicine},
+  volume={187},
+  pages={109762},
+  year={2025},
+  publisher={Elsevier}
+}
+```
+
 ## Acknowledgement
 Some of the codes are borrowed/refer from below repositories:
 - [WSL4MIS](https://github.com/HiLab-git/WSL4MIS)
