@@ -14,6 +14,28 @@ This repository is the official implementation of the paper QMaxViT-Unet+: A Que
 
 4. The BUSI dataset can be downloaded from [Kaggle](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset). The Scribble-BUSI dataset from our paper can be downloaded [here](https://www.kaggle.com/datasets/anhoangvo/scribble-busi).
 
+## Related Code and Pretrained Weights
+
+To ensure proper functionality, you need to download the related code and pretrained weights.
+
+Run the following commands to clone the necessary repository:
+
+```python
+%cd QMaxViT-Unet/model
+!git clone https://github.com/huggingface/pytorch-image-models
+%cd QMaxViT-Unet
+```
+
+Download the pretrained weights for MaxViT Blocks from the link below:
+
+[MaxViT Pretrained Weights](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights-maxx/maxxvit_rmlp_small_rw_256_sw-37e217ff.pth)
+
+This file is used in 
+```python
+from model.qemaxvit_unet import QEMaxViT_Unet
+model = QEMaxViT_Unet(num_classes=4, backbone_pretrained_pth="./maxxvit_rmlp_small_rw_256_sw-37e217ff.pth")
+```
+
 ## Usage
 ### Generate edge masks
 ```bash
